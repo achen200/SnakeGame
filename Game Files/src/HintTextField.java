@@ -1,11 +1,22 @@
 package src;
+import javax.swing.border.*;
 import javax.swing.*;
 import java.awt.*;
 
 public class HintTextField extends JTextField {
     private static final long serialVersionUID = 1L;
+    private static final Border line = BorderFactory.createLineBorder(Color.DARK_GRAY);
+    private static final Border empty = new EmptyBorder(0, 20, 0, 0);
+    private static final CompoundBorder border = new CompoundBorder(line, empty);
 
     public HintTextField(String hint) {
+        setMargin(new Insets(0,20,0,0));
+        setAlignmentX(Component.CENTER_ALIGNMENT);
+        setOpaque(false);
+        setForeground(MenuButton.darkGreen);
+        setFont(GameCanvas.hsFont);
+        setMaximumSize(new Dimension(280, 50));
+        setBorder(border);
         _hint = hint;
     }
     @Override
