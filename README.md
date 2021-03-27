@@ -8,7 +8,7 @@ Compile using terminal on (Mac) or cmd (Windows):
     2) use command "cd {Sample_Path}" where {Sample_Path} is the path to the SnakeGame Folder  
     3) copy-paste the following command into terminal  
    
-        javac -d ./bin ./src/*
+    javac -d ./bin ./src/*
 
 To run (after compiling): 
 
