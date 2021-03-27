@@ -4,7 +4,7 @@ Snake Game  Project
 Note: Code is not compiled
 
 Compile using terminal on (Mac) or cmd (Windows):  
-    1) donwload and extract files
+    1) download and extract files
     2) open terminal/cmd  
     3) change directory to the location of SnakeGame-main folder  
 
