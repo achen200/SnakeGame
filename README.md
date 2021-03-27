@@ -4,12 +4,13 @@ Snake Game  Project
 Note: Code is not compiled
 
 Compile using terminal on (Mac) or cmd (Windows):  
-    1) open terminal/cmd  
-    2) change directory to the location of SnakeGame folder  
+    1) donwload and extract files
+    2) open terminal/cmd  
+    3) change directory to the location of SnakeGame-main folder  
 
-    cd Sample/Folder/Path/SnakeGame
+    cd Sample/Folder/Path/SnakeGame/SnakeGame-main
     
-   3)copy-paste the following command into terminal  
+   4)copy-paste the following command into terminal  
    
     javac -d ./bin ./src/*
 
