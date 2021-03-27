@@ -5,8 +5,11 @@ Note: Code is not compiled
 
 Compile using terminal on (Mac) or cmd (Windows):  
     1) open terminal/cmd  
-    2) use command "cd {Sample_Path}" where {Sample_Path} is the path to the SnakeGame Folder  
-    3) copy-paste the following command into terminal  
+    2) use command where Sample/Folder/Path/SnakeGame is the path to the SnakeGame folder  
+
+    cd Sample/Folder/Path/SnakeGame
+    
+   3) copy-paste the following command into terminal  
    
     javac -d ./bin ./src/*
 
