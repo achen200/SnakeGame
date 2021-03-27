@@ -46,7 +46,7 @@ public class Resources {
         snakeBentBody = new Image[4];
         
         try {
-            highScoreSheet = new File("./Game Files/bin/highScores.txt");
+            highScoreSheet = new File("./bin/highScores.txt");
             scoreScanner = new Scanner(highScoreSheet);
         } catch (FileNotFoundException e) {
             System.out.println("High Score Sheet not found");
