@@ -15,7 +15,7 @@ public class Resources {
     private static final int NAME_INDEX = 1;
     public static final String DELIMITER = "~!/";
     public static final String NEWLINE = "<br/>";
-    private static final String PATH = "./Game Files/lib/img";
+    private static final String PATH = "./lib/img";
     public static final int NORTH_WEST = 0;
     public static final int NORTH_EAST = 1;
     public static final int SOUTH_WEST = 2;
